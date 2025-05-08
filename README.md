@@ -37,7 +37,7 @@ The MapReduce framework consists of the following components:
 
 ## Files in the Repository
 
-- `Task_A_ver2.py`: Main MapReduce framework implementation
+- `passenger_flight_mapreduce.py`: Main MapReduce framework implementation
 - `mapreduce_test.py`: Test script with sample data generation and testing
 - `mapreduce_unittest.py`: Unit tests for the MapReduce framework
 - `AComp_Passenger_data_no_error.csv`: Flight data for analysis (not included in repository)
@@ -47,7 +47,7 @@ The MapReduce framework consists of the following components:
 ### Basic Usage
 
 ```bash
-python Task_A_ver2.py
+python passenger_flight_mapreduce.py
 ```
 
 This will run the MapReduce job on the default input file (`AComp_Passenger_data_no_error.csv`) and output the results to `passenger_flight_counts.csv`.
@@ -55,7 +55,7 @@ This will run the MapReduce job on the default input file (`AComp_Passenger_data
 ### Custom Configuration
 
 ```bash
-python Task_A_ver2.py --input custom_data.csv --output custom_results.csv --mappers 8 --reducers 4
+python passenger_flight_mapreduce.py --input custom_data.csv --output custom_results.csv --mappers 8 --reducers 4
 ```
 
 ### Testing
