@@ -99,7 +99,3 @@ The framework outputs:
 - Add support for distributed processing across multiple machines
 - Implement fault tolerance mechanisms
 - Add more analytics capabilities for flight data
-
-## Assignment Context
-
-This project was developed as part of the Cloud Computing and Big Data module coursework, specifically for Task A which focuses on implementing a MapReduce solution to determine the passenger(s) with the highest number of flights.
