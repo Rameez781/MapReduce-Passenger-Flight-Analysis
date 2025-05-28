@@ -21,19 +21,19 @@ This project implements a custom MapReduce framework in Python to process flight
 
 The MapReduce framework consists of the following components:
 
-1. **Data Loading**: Reads CSV flight records data into memory
-2. **Data Split**: Divides data into chunks for parallel processing
-3. **Map Phase**: Processes each record to extract key-value pairs (passenger_id, 1)
-4. **Shuffle and Sort**: Groups values by key (passenger_id)
-5. **Reduce Phase**: Aggregates values for each key to determine total flights per passenger
-6. **Result Processing**: Identifies passenger(s) with the maximum number of flights
+1. **Data Loading** - Reads CSV flight records data into memory
+2. **Data Split** - Divides data into chunks for parallel processing
+3. **Map Phase** - Processes each record to extract key-value pairs (passenger_id, 1)
+4. **Shuffle and Sort** - Groups values by key (passenger_id)
+5. **Reduce Phase** - Aggregates values for each key to determine total flights per passenger
+6. **Result Processing** - Identifies passenger(s) with the maximum number of flights
 
 ### Technical Specifications
 
-- **Programming Language**: Python 3
-- **Concurrency**: Multi-threading with ThreadPoolExecutor
-- **Data Format**: CSV processing
-- **Dependencies**: Standard Python libraries only (no external dependencies)
+- **Programming Language** - Python 3
+- **Concurrency** - Multi-threading with ThreadPoolExecutor
+- **Data Format** - CSV processing
+- **Dependencies** - Standard Python libraries only (no external dependencies)
 
 ## Files in the Repository
 
